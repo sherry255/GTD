@@ -1,4 +1,4 @@
-# Deadline
+# GTD
 
 ## To Use
 
@@ -6,9 +6,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone 
+git clone https://github.com/sherrycherish/GTD
 # Go into the repository
-cd Deadline
+cd GTD
 # Install dependencies
 npm install
 # Run the app
