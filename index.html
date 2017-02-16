@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Deadline</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/todo.css">
+    <script>window.$ = window.jQuery = require('./static/jquery.js');</script>
+</head>
+<body>
+    <div>
+        <h1>DeadLine</h1>
+        <p id="current-time"></p>
+        <div class="week" id="week">
+            <button name="0"class="Monday"> 星期一 </button>
+            <button name="1"class="Tuesday"> 星期二 </button>
+            <button name="2"class="Wednesday"> 星期三 </button>
+            <button name="3"class="Thursday"> 星期四 </button>
+            <button name="4"class="Friday"> 星期五 </button>
+            <button name="5"class="Saturday"> 星期六 </button>
+            <button name="6"class="Sunday"> 星期天 </button>
+        </div>
+        <br><br>
+        <div class="input-task">
+            tasks:
+            <input type="text" class="task" name="task" required="required"> start time:
+            <input type="datetime-local" class="start-time" name="start time">
+            <button class="add" id="add">  +  </button> </div>
+            <button class="delete-all-todos" id="delete-all-todos">清空</button>
+        </div>
+        <div id="lists">
+            <!-- <div class="list"><span class="" id="t">curent time:9:51,  task:  start time: <span id="c"></span><button class="is-complete">completed</button><button class="delete">delete</button></span></div> -->
+        </div>
+        <div class="completed-tasks"></div>
+    </div>
+</body>
+<script src="static/jquery.js"></script>
+<script src="static/todo.js"></script>
+</html>

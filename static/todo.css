@@ -1,0 +1,75 @@
+body {
+    background-color:#e0ffff;
+
+}
+title, h1, p{
+    text-align:center
+}
+
+.add {
+  padding: 0px 7px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ff99ff;
+  border: none;
+  /*border-radius: 5px;*/
+  /*box-shadow: 0 9px #999;*/
+  /*height: 20px;*/
+    /*-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;*/
+  border-radius: 50%;
+}
+
+.add:hover {
+  background-color: #cc33ff;
+}
+
+.add:active {
+  background-color: #cc33ff;
+  /*box-shadow: 0 5px #666;*/
+  transform: translateY(2px);
+}
+
+.week {
+   background-color:none;
+   border: none;
+   color: white;
+   /*position: absolute;*/
+   margin:0 auto;
+   
+   /*top: 0; left: 0; right: 0; bottom: 0;*/
+   overflow: auto;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+   /*margin-left: auto;*/
+   /*margin-right: auto;*/
+   cursor: pointer;
+   border-radius: 8px;
+}
+
+.week > button{
+    background-color: #ffe6ff;
+    border: none;
+    align: center;
+}
+.week > button :selection {
+    background: #ffe6ff;
+    border:none;
+}
+.week > button :hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-task {
+    margin:0 auto;
+    display: inline;
+    text-align: center;
+    position:relative;
+}
+.completed {
+    text-decoration: line-through;
+}
