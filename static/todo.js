@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 // log 函数
 function log() {
-    console.log(arguments)
+    console.log.apply(console, arguments);
 }
 
 // renderAtId 函数( 渲染 innerHTML )
